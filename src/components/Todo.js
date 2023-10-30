@@ -10,6 +10,9 @@ const [todos, setTodos] = useState([]);
 const inputRef = useRef(null);
 
 const add = ()=>{
+  if(inputRef.current.value===""){
+    return 0;
+  }
     setTodos([...todos,{no:count++,text:inputRef.current.value,display:""}]);
     inputRef.current.value = "";
     localStorage.setItem("todos_count",count);
