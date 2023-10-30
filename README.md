@@ -1,3 +1,6 @@
+Todo-List App in React.js
+Date: 30-10-2023
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
